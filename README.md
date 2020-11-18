@@ -1,4 +1,8 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1c25312d-7f0e-4d18-b176-052fe46a4c77/deploy-status)](https://app.netlify.com/sites/adoring-rosalind-4c1626/deploys)
+
 # Serverless Proxy for Securing API Keys
+
+[Live Demo](https://adoring-rosalind-4c1626.netlify.app/) 
 
 Based on [NunoCPNP/protectapisecrets](https://github.com/NunoCPNP/protectapisecrets) project by Nuno Pereira
 
