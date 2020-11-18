@@ -5,12 +5,13 @@ import "./App.css"
 const App = () => {
   const [movies, setMovies] = useState(null)
     
-    async function fetchMovies() {
-        const url = `https://api.themoviedb.org/3/movie/popular?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&page=1`
-      const response = await axios.get(url)
-        const data = response.data.results
-        setMovies(data)
-      }  
+  async function fetchMovies() {
+    const url = `/.netlify/functions/getMovies`
+
+    const response = await axios.get(url)
+    const data = response.data
+    setMovies(data)
+  }  
 
     useEffect(() => {
     fetchMovies()
