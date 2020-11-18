@@ -6,7 +6,7 @@
 
 Based on [NunoCPNP/protectapisecrets](https://github.com/NunoCPNP/protectapisecrets) project by Nuno Pereira
 
-This project displays the most popular movies from MovieDB's API. Normally we would have to include the API key for our client side code. Instead, we're utilizing [Netlify functions](https://www.netlify.com/products/functions/) to proxy our api request and prevent exposing our API key. Shout out to [Netlify](https://www.netlify.com/) for making this deployment workflow super easy.
+This project displays the most popular movies from MovieDB's API. Normally we would have to include the API key for our client side code. Instead, we're utilizing [Netlify functions](https://www.netlify.com/products/functions/) to proxy our request and prevent exposing our API key to the public. Shout out to [Netlify](https://www.netlify.com/) for making this deployment workflow super easy.
 
 ![Screen Shot 2020-11-17 at 8 46 34 PM](https://user-images.githubusercontent.com/12053461/99476514-4cd55200-2916-11eb-9dcf-dd0877f4c4db.png)
 
